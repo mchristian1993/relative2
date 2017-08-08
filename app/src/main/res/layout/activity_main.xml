@@ -24,10 +24,11 @@
         android:layout_height="wrap_content"
         android:text="@string/st1"
         android:background="@color/colorAccent"
-        android:padding="15dp"
-
+        android:padding="10dp"
+android:layout_alignLeft="@id/txtcenter"
      android:layout_above="@id/txtcenter"
         android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"
         />
 
 </RelativeLayout>
