@@ -14,9 +14,8 @@
     android:layout_height="wrap_content"
     android:text="@string/st4"
     android:background="@color/colorAccent"
-    android:padding="15dp"
+    android:padding="10dp"
     android:layout_centerInParent="true"
-    android:layout_centerHorizontal="true"
         android:layout_margin="4dp"
     />
     <TextView
@@ -28,8 +27,44 @@
         android:padding="10dp"
 android:layout_alignLeft="@id/txtcenter"
      android:layout_above="@id/txtcenter"
-        android:layout_centerHorizontal="true"
+
 
         />
 
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st3"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+android:layout_toLeftOf="@id/txtcenter"
+
+        />
+
+
+    <TextView
+        android:id="@+id/txt3.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st8"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/txtcenter"
+
+        />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s9"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+       android:layout_below="@id/txtcenter"
+        android:layout_alignRight="@id/txtcenter"
+
+        />
 </RelativeLayout>
